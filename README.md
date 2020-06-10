@@ -1,5 +1,5 @@
 ## Requisitos
-  - [Node.js](https://nodejs.org/en/download/) - preferencialmente a versão LTS
+  - [Node.js](https://nodejs.org/en/download/) - Preferencialmente a versão LTS.
   - [GIT](https://git-scm.com/downloads) - Opcional para poder facilitar na instalação.
 
 ## Como instalar
@@ -7,7 +7,7 @@ Caso queira utilizar o git, utilize `git clone https://github.com/BrunoMoraes-Z/
 
 acesse a pasta do projeto e abra o CMD.
 
-execute o comando `npm install` e aguarde o download de todas as dependencias.
+execute o comando `npm install` e aguarde o download de todas as dependências.
 
 ## Como Executar
 para executar pode utilizar o arquivo `start.bat` ou executar o comando `npm start` no cmd.
@@ -16,12 +16,12 @@ para executar pode utilizar o arquivo `start.bat` ou executar o comando `npm sta
 `localhost:3000`
 
 ## Utilização
-Para utilizar esta ferramenta a url fica `localhost:3000/<endpoint>`
+Para utilizar esta ferramenta a URL fica `localhost:3000/<endpoint>`
 
 ## Lista De Endpoints
 `pessoa, email, cpf, rg, cep, on_creditcard/flag, off_creditcard, creditcardvalidate`
 
-de todos os endpoins apenas 2 são nessesaio conexao com internet `on_creditcard e creditcardvalidate`
+de todos os endpoins apenas 2 é necessária conexão com internet `on_creditcard e creditcardvalidate`
 
 ## Responses
 - pessoa
