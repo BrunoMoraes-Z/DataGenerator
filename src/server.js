@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 app.use(routes);
 
-app.listen(3000, () => {
+app.listen(80, () => {
   console.log('Sistema online...')
-  console.log('Escutando localhost:3000')
+  console.log('Escutando localhost:80')
 });
