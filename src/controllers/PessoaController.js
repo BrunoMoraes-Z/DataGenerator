@@ -1,5 +1,6 @@
 const leite = require('leite');
 const api = new leite();
+const ceps = require('../../ceps.json');
 
 module.exports = {
 
@@ -18,7 +19,7 @@ module.exports = {
       logradouro: api.localizacao.logradouro(),
       complemento: api.localizacao.complemento(),
       bairro: api.localizacao.bairro(),
-      cep: api.localizacao.cep(),
+      cep: ceps.ceps[Math.floor(Math.random() * ceps.ceps.length)].cep,
       cidade: api.localizacao.cidade(),
       estado: api.localizacao.estado()
     });
