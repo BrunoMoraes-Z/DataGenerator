@@ -9,9 +9,10 @@ module.exports = {
         'email',
         'rg',
         'cep',
-        'on_creditcard - OBRIGATÓRIO TER CONEXAO COM INTERNET',
-        'off_creditcard',
-        'creditcardvalidate - OBRIGATÓRIO TER CONEXAO COM INTERNET'
+        'creditcard',
+        // 'on_creditcard - OBRIGATÓRIO TER CONEXAO COM INTERNET',
+        // 'off_creditcard',
+        'creditcardvalidate'
       ]
     });
   }
