@@ -6,7 +6,8 @@ const app = express();
 app.use(express.json());
 app.use(routes);
 
-app.listen(80, () => {
-  console.log('Sistema online...')
-  console.log('Escutando localhost:80')
+const port = process.env.PORT || 1024;
+
+app.listen(port, () => {
+  console.log(`Server running on ${port}, http://localhost:${port}`)
 });
